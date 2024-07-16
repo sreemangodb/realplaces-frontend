@@ -1,0 +1,572 @@
+
+  
+.border-bottom {
+  border-bottom: solid 1px #e7e7e7;
+}
+
+.border-bottom4 {
+    border-bottom: solid 1px #e7e7e7;
+    padding: 4px 0px;
+  }  
+.border-bottom8 {
+    border-bottom: solid 1px #e7e7e7;
+    padding: 8px 0px;
+  } 
+  .border-bottom12 {
+    border-bottom: solid 1px #e7e7e7;
+    padding: 12px 0px;
+  } 
+
+
+.button-left {
+    clear: both;
+    margin: 20px 0px 40px 0px;
+    text-align: left;
+}
+.button-01 {
+    width: 200px;
+    line-height: 36px;
+    border-radius: 4px;
+    background: #007bff;
+    padding: 5px 12px;
+    text-align: center;
+    margin: 0px auto;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    cursor: pointer;
+}
+
+.button-01:hover, .button:focus, .button:active {
+    -webkit-animation-name: button-02;
+    animation-name: button-02;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+     text-decoration:none;
+      color:#fff;
+  }
+  
+  .button a {color:#fff !important; text-decoration:none;}
+
+
+.list {
+    margin: 0px;
+    padding: 0px;
+}
+
+.list a {
+    text-decoration: none;
+    margin: 10px;
+    width: 100%;
+    line-height: 20px;
+}
+.list   li {
+    list-style: none;
+    border-bottom: solid 1px #e7e7e7;
+    line-height: 30px;
+}
+
+
+
+label {
+    font-size: 12px;
+    color: #4D4D4D;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: #e7e7e7 !important;
+    margin: 10px auto;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+
+select {
+    width: 100%;
+    padding: 16px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+ 
+
+
+  .google-map { 
+    width:100%;
+    padding:5px;
+    text-align:center;
+    min-height: 400px;
+    overflow: hidden;
+  }
+  .google-map iframe { 
+    width:100% !important;
+    min-height: 400px;
+  }
+
+
+/*MEDIA QUERY START FROM 1281 --------------------------------START FROM 1281 */
+  @media (min-width: 1281px) {
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /*font-family: 'Poppins', sans-serif; */
+        font-family: Arial, Helvetica, sans-serif;
+  } 
+      
+a { text-decoration: none; }
+
+
+.align-left { text-align: left !important; }
+.align-right { text-align: right !important; }
+.align-center { text-align: center !important; }
+.align-left-center { text-align:left }
+.align-left-right { text-align:left }
+.align-right-center { text-align:right }
+.align-right-left { text-align:right }
+
+
+.border {
+    width: 100%;
+    border: solid 1px #e7e7e7;
+}
+
+.box {
+    clear: both;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px auto;
+}
+
+
+
+/*Clear and H Gap Start */
+.clear0 { clear: both; height: 0px; }
+.clear5 { clear: both; height: 5px; }
+.clear10 { clear: both; height: 10px; }
+.clear15 { clear: both; height: 15px; }
+.clear20 { clear: both; height: 20px; }
+.clear25 { clear: both; height: 25px; }
+.clear30 { clear: both; height: 30px; }
+.clear35 { clear: both; height: 35px; }
+.clear40 { clear: both; height: 40px; }
+.clear45 { clear: both; height: 45px; }
+.clear50 { clear: both; height: 50px; }
+.clear55 { clear: both; height: 55px; }
+.clear60 { clear: both; height: 60px; }
+.clear65 { clear: both; height: 65px; }
+.clear70 { clear: both; height: 70px; }
+.clear75 { clear: both; height: 75px; }
+.clear80 { clear: both; height: 80px; }
+.clear85 { clear: both; height: 85px; }
+.clear90 { clear: both; height: 90px; }
+.clear95 { clear: both; height: 95px; }
+.clear100 { clear: both; height: 100px; }
+/*Clear and H Gap End */
+
+
+
+/*Img Code Start */
+.img { width: 100%; overflow: hidden; }
+.img .img { width: 100%; overflow: hidden; }
+/* Img Code Start */
+
+
+/*Parallax 01 Start */
+.parallax-01 {
+    /* The image used */
+    /* background-image: url("img_parallax.jpg"); */
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /*
+  <div class="parallax--01"></div>
+  /*
+  /*Parallax 01 End */
+ 
+/*
+
+  .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+   
+        
+ 
+
+*/
+.tr01 {
+    clear: both;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 100%;
+}
+.tr01 .td01 {
+    width: 100%;
+    padding: 1%;
+}
+
+
+.tr02 {
+    clear: both;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    padding: 5px 0px 15px 0px;
+    border-bottom: solid 1px #e7e7e7;
+    margin: 5px auto;
+}
+.tr02 .td02 {
+    width: 100%;
+    padding: 1%;
+}
+
+
+.tr03 {
+    clear: both;
+    width: 98%;
+
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    gap: 5px;
+    padding: 5px 0px 15px 0px;
+    border-bottom: solid 1px #e7e7e7;
+    margin: 5px auto;
+}
+.tr03 .td03 {
+    width: 100%;
+    padding: 1%;
+}
+
+
+
+.tr04 {
+    clear: both;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 10px;
+}
+.tr04 .td04 {
+    width: 100%;
+    padding: 1%;
+}
+
+
+.tr05 {
+    clear: both;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    gap: 10px;
+}
+.tr05 .td05 {
+    width: 100%;
+    padding: 1%;
+}
+
+
+.tr06 {
+    clear: both;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 16.65% 16.65% 16.65% 16.65% 16.65% 16.65%;
+    gap: 10px;
+}
+.tr06 .td06 {
+    width: 100%;
+    padding: 1%;
+}
+
+
+.tr07 {
+    clear: both;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 14.28% 14.28% 14.28% 14.28% 14.28% 14.28% 14.28%;
+    gap: 10px;
+}
+.tr07 .td07 {
+    width: 100%;
+    padding: 1%;
+}
+
+
+.tr08 {
+    clear: both;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% ;
+    gap: 10px;
+}
+.tr08 .td04 {
+    width: 100%;
+    padding: 1%;
+}
+
+
+.tr09  {
+    clear: both;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11%  ;
+    gap: 10px;
+}
+.tr09 .td09 {
+    width: 100%;
+    padding: 1%;
+}
+
+
+
+.tr10  {
+    clear: both;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%   ;
+    gap: 10px;
+}
+.tr10 .td10 {
+    width: 100%;
+    padding: 1%;
+}
+
+
+
+/*TITLES CSS CODE START ......................................................... */
+
+.page-title-01 {
+    width: 100%;
+    background-color: #e7e7e7;
+    color:#333;
+    padding: 1% 8%;
+    clear: both;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+
+/*Title 01 
+Use for Keyword*/
+.title-01 {
+    margin: 20px 0px 10px 0px;
+    clear: both;
+  }
+.title-01 em {
+      display: block;
+      font-size: 16px;
+      margin-top: 5px;
+      font-style: normal;
+      font-weight: 400;
+  
+  }
+.title-01 .line{
+      background: #9eca45;
+      height: 3px;
+      display: block;
+      bottom: 0px;
+      width: 100px;
+      margin: 18px auto 0 auto;
+  }
+.title-01 h2 {
+    font-size: 35px;
+    font-weight: 400;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+.title-01 h2 strong {
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+    /*
+    <div class="title-02">
+  <h2>Popular Categories in  <strong>Hyderabad</strong> 
+   <span class="line"></span></h2>
+</div><!--title01-->   
+    */
+    /*Title 01 End */
+  
+
+
+/*Title 02 start*/
+.title-02 h4{
+    font-size: 22px;
+    padding-bottom: 8px;
+    z-index: 1;
+    position: relative;
+    text-align: left;
+    font-weight: normal;
+    margin: 5px 0px 7px 0px;
+    }
+    .title-02 .line{
+      background: #9eca45;
+      position: absolute;
+      height: 2px;
+      display: block;
+      bottom: 0px;
+      width: 72px;
+    }
+    .title-02 .text{
+      z-index: 20;
+      position: relative;
+      text-align: center;
+    }
+    
+    
+    
+/*Title 02 End*/
+
+/*Sub-title-01 code start */
+.sub-title-01 {
+        clear: both;
+        width: 100%;
+        margin: 5px auto 5px auto;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 22px;
+        display: inline-block;
+        position: relative;
+        margin-left: 35px;
+        color: #2db7ff;
+        }
+.sub-title-01:before {
+        content: "";
+        width: 25px;
+        position: absolute;
+        background: #2db7ff;
+        height: 3px;
+        left: -35px;
+        top: 50%;
+        transform: translateY(-50%);
+        } 
+        
+        /*
+  <div class="sub-title-01">
+  Sub Title
+  </div>
+  * /
+
+/*Sub-title-01 code start */
+
+/*Sub Title 02 start */
+.sub-title-02 {
+    width: 100%;
+    background-color: blue;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 0px;
+}
+/*Sub Title 02 End */
+
+/*TITLES CSS CODE END ......................................................... */
+
+
+
+
+
+
+.left-right-layout {
+    clear: both;
+    width: 100%;
+    
+}
+.left-right-layout .leftrightlayout-in {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 25% 75%;
+}
+.left-right-layout .leftrightlayout-in .leftrightlayout-left {
+    width: 100%;
+}
+.left-right .leftright-in .leftrightlayout-right {
+    width: 100%;
+}
+
+
+.right-left {
+    clear: both;
+    width: 100%;
+}
+.right-left .rightleft-in {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 75% 25%;
+}
+.right-left .rightleft-in {
+    width: 100%;
+}
+.right-left .rightleft-in .rightleft-right {
+    width: 100%;
+}
+.right-left .rightleft-in .rightleft-left {
+    width: 100%;
+}
+
+
+}
+/*MEDIA QUERY  1281 END  .......... -------------------------------- 1281 END */
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+

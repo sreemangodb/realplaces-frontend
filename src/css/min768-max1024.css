@@ -1,0 +1,538 @@
+
+ 
+
+/*MEDIA QUERY START FROM 768 and MAX 1024 -------------------------------- */
+@media (min-width: 768px) and (max-width: 1024px){
+
+          .home-search-bg {
+            clear: both;
+            width: 100%;
+            height: 320px;
+            background-image: url("../Assets/Images/searchbox-bg.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            height:fit-content;
+            margin-bottom: 0px;
+
+            background-size: cover;
+            object-fit: fill;
+            z-index: 999;
+            position: sticky;
+            top:-240px;
+            border-bottom:solid 95px #fff;
+            transition: all .5s linear;
+         
+          }
+    
+          .home-search-bg h5 {
+            font-size: 14px;
+            line-height: 18px;
+            margin-bottom: 10px;
+            font-weight: 400;
+          }
+    
+    
+          .typewriter h4 {
+              overflow: hidden;
+              border-right: 0em solid #fff;
+              white-space: nowrap;
+              margin: 0 auto;
+              letter-spacing: 0em;
+              animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+              font-size: 20px;
+              font-weight: 400;
+              line-height: 30px;
+              text-align: center;
+              width: 100%;
+          }
+    
+    
+    
+          
+    /* SEARCH HOME PAGES Start */
+    .search-homepage {
+      clear: both;
+      width: 60%;
+      margin: -200px auto 10px auto;
+      padding:0px;
+      z-index: 9999999;
+      position:sticky;
+      top: 17px;
+      transition: all .5s linear;
+    }
+    
+    .search-homeage .search-homepage-in {
+      clear: both;
+      margin: 0px auto;
+    
+    }
+    
+    .homesearch-tr03 {
+      clear: both;
+      width: 100%;
+      margin: 5px auto;
+      display: grid;
+      grid-template-rows: auto;
+      grid-template-columns: 40% 40% 20%;   
+      transition: all .5s linear;
+    }
+        
+    
+     .homesearch-tr03 .category {
+      border-radius:4px 0px 0px 4px;
+    }
+    .homesearch-tr03 .category select {
+      width: 100%;
+      padding: 20px 10px;
+      color: #777;
+      border-radius: 50px 0px 0px 50px;
+      background: #fff;
+    }
+    
+     .homesearch-tr03 .location {
+      border-radius:0px 0px 0px 0px;
+    }
+    .homesearch-tr03 .location select {
+      width: 100%;
+      padding: 20px 10px;
+      color: #777;
+      border-radius: 0px 0px 0px 0px;
+      background: #fff;
+    }
+    
+    
+    .homesearch-tr03  .search {
+    width: 100%;
+    }
+    .homesearch-tr03 .search .search-button {
+      width: 100%;
+      padding: 20px 10px;
+      text-align: center;
+      font-weight: 400;
+      font-size: 16px;
+      margin:2px 0px 0px 3px;
+      background-color: #005CA8;
+      color: #fff;
+      border: solid 1px #005CA8;
+      border-radius: 0px 50px 50px 0px;
+    }
+      
+      /*SEARCH HOME PAGE END */
+    
+    
+    
+/*SEARCH ALL PAGES START*/
+.search-allpages {
+  clear: both;
+  padding:0px;
+  z-index: 9;
+  background: #fff;
+  transition: all .5s linear;
+  border-bottom: solid 2px #e7e7e7;
+}
+.search-allpages .search-allpages-in {
+  clear: both;
+  margin: 10px auto;
+  width: 60%;
+  
+}
+.search-allpages .search-allpages-in  .search-allpages-tr03 {
+  clear: both;
+    width: 100%;
+    text-align: center;
+    margin: 20px auto 10px auto;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 42% 42% 16%;   
+    transition: all .5s linear;
+}
+       
+
+.search-allpages .search-allpages-in  .search-allpages-tr03 .category {
+  border-radius:4px 0px 0px 4px;
+}
+.search-allpages .search-allpages-in  .search-allpages-tr03 .category select {
+  width: 100%;
+  padding: 20px 10px;
+  color: #777;
+  border-radius: 50px 0px 0px 50px;
+}
+
+.search-allpages .search-allpages-in  .search-allpages-tr03 .location {
+  border-radius:0px 0px 0px 0px;
+}
+.search-allpages .search-allpages-in  .search-allpages-tr03 .location select {
+  width: 100%;
+  padding: 20px 10px;
+  color: #777;
+  border-radius: 0px 0px 0px 0px;
+}
+
+
+.search-allpages .search-allpages-in  .search-allpages-tr03  .search {
+width: 100%;
+}
+.search-allpages .search-allpages-in  .search-allpages-tr03 .search .search-button {
+  width: 100%;
+  padding: 20px 10px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  margin:2px 0px 0px 5px;
+  background-color: #005CA8;
+  color: #fff;
+  border: solid 1px #005CA8;
+  border-radius: 0px 50px 50px 0px;
+}
+/*Search All Pages End */
+
+
+    
+      
+    
+    /*Top Citys Start*/
+    
+    
+    
+    .top-cities {
+        clear: both;
+        width: 100%;
+        padding: 2% 2%;
+        text-align: center;
+        margin:110px auto 10px auto;
+        z-index: 99;
+        position: relative;
+       } 
+    
+       .top-cities .border {
+        border: solid 1px #e7e7e7;
+        background-color: #f2f2f2;
+        padding: 5px;
+        width: 100%;
+       }
+       .top-cities h5 {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 26px;
+        color: #585858;
+       }
+       .top-cities h6 {
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        color: #8B8B8B;
+        line-height: 18px;
+       }
+       .top-cities img {
+        width: 30px;
+        height: 40px;
+       }
+       .top-cities .topcity-tr06 {
+       clear: both;
+       width: 100%;
+       display:grid;
+       grid-template-rows: auto;
+       grid-template-columns: 32.65% 32.65% 32.65%; gap: 1%; 
+        gap: 2%; 
+        margin: 10px auto;
+      }
+        
+        .top-cities .topcity-tr06  { width: 100%; padding: 1%; }
+        .top-cities .topcity-tr06 .td06 {
+          padding: 10px 5px;
+        }
+        
+        .realplaces-title01 {
+            z-index: 9999;
+        }
+    /*Top Citys End*/
+    
+    
+    /*FOOTER START */
+    .footer .footer-in .tr03 { 
+        clear: both; 
+        width: 100%;  
+        height: fit-content;
+        margin: 5px auto;   
+        display: grid; 
+        grid-template-rows: auto auto auto; 
+        grid-template-columns: 32.65% 32.65% 32.65%; gap: 1%; 
+       }
+    
+        .footer .footer-in .tr03 .td03 {
+            margin: 10px auto;
+        }
+    /*FOOTER END*/
+     
+
+
+.align-left { text-align: left !important; }
+.align-right { text-align: right !important; }
+.align-center { text-align: center !important; }
+.align-left-center { text-align:left }
+.align-left-right { text-align:left }
+.align-right-center { text-align:right }
+.align-right-left { text-align:right }
+
+
+
+.ad01 {
+  clear: both;
+  width: 52%;
+  margin: 30px auto 20px auto;
+}
+
+.border {
+    width: 100%;
+    border: solid 1px #e7e7e7;
+}
+
+.box {
+    clear: both;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px auto;
+}
+
+
+
+/*Clear and H Gap Start */
+.clear0 { clear: both; height: 0px; }
+.clear5 { clear: both; height: 5px; }
+.clear10 { clear: both; height: 10px; }
+.clear15 { clear: both; height: 15px; }
+.clear20 { clear: both; height: 20px; }
+.clear25 { clear: both; height: 25px; }
+.clear30 { clear: both; height: 30px; }
+.clear35 { clear: both; height: 35px; }
+.clear40 { clear: both; height: 40px; }
+.clear45 { clear: both; height: 45px; }
+.clear50 { clear: both; height: 50px; }
+.clear55 { clear: both; height: 55px; }
+.clear60 { clear: both; height: 60px; }
+.clear65 { clear: both; height: 65px; }
+.clear70 { clear: both; height: 70px; }
+.clear75 { clear: both; height: 75px; }
+.clear80 { clear: both; height: 80px; }
+.clear85 { clear: both; height: 85px; }
+.clear90 { clear: both; height: 90px; }
+.clear95 { clear: both; height: 95px; }
+.clear100 { clear: both; height: 100px; }
+/*Clear and H Gap End */
+
+
+
+/*Img Code Start */
+.img { width: 100%; overflow: hidden; }
+.img .img { width: 100%; overflow: hidden; }
+/* Img Code Start */
+
+
+/*Parallax 01 Start */
+.parallax-01 {
+    /* The image used */
+    /* background-image: url("img_parallax.jpg"); */
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /*
+  <div class="parallax--01"></div>
+  /*
+  /*Parallax 01 End */
+  
+/*
+  .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+   
+        
+ 
+
+
+
+
+
+/*TITLES CSS CODE START ......................................................... */
+
+.page-title-01 {
+    width: 100%;
+    background-color: #e7e7e7;
+    color:#333;
+    padding: 1% 8%;
+    clear: both;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+
+/*Title 01 
+Use for Keyword*/
+.title-01 {
+    margin: 20px 0px 10px 0px;
+    clear: both;
+  }
+.title-01 em {
+      display: block;
+      font-size: 16px;
+      margin-top: 5px;
+      font-style: normal;
+      font-weight: 400;
+  
+  }
+.title-01 .line{
+      background: #9eca45;
+      height: 3px;
+      display: block;
+      bottom: 0px;
+      width: 100px;
+      margin: 18px auto 0 auto;
+  }
+.title-01 h2 {
+    font-size: 35px;
+    font-weight: 400;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+.title-01 h2 strong {
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+    /*
+    <div class="title-02">
+  <h2>Popular Categories in  <strong>Hyderabad</strong> 
+   <span class="line"></span></h2>
+</div><!--title01-->   
+    */
+    /*Title 01 End */
+  
+
+
+/*Title 02 start*/
+.title-02 h4{
+    font-size: 22px;
+    padding-bottom: 8px;
+    z-index: 1;
+    position: relative;
+    text-align: left;
+    font-weight: normal;
+    margin: 5px 0px 7px 0px;
+    }
+    .title-02 .line{
+      background: #9eca45;
+      position: absolute;
+      height: 2px;
+      display: block;
+      bottom: 0px;
+      width: 72px;
+    }
+    .title-02 .text{
+      z-index: 20;
+      position: relative;
+      text-align: center;
+    }
+    
+    
+    
+/*Title 02 End*/
+
+/*Sub Title 02 start */
+.sub-title-02 {
+    width: 100%;
+    background-color: blue;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 0px;
+}
+/*Sub Title 02 End */
+
+/*TITLES CSS CODE END ......................................................... */
+
+
+
+
+
+
+.pleft-right {
+    clear: both;
+    width: 100%;
+}
+.left-right .leftright-in {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 25% 75%;
+}
+.left-right .leftright-in .left-right-left {
+    width: 100%;
+}
+.left-right .leftright-in .left-right-right {
+    width: 100%;
+}
+
+
+.right-left {
+    clear: both;
+    width: 100%;
+}
+.right-left .rightleft-in {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 75% 25%;
+}
+.right-left .rightleft-in {
+    width: 100%;
+}
+.right-left .rightleft-in .rightleft-right {
+    width: 100%;
+}
+.right-left .rightleft-in .rightleft-left {
+    width: 100%;
+}
+
+
+
+}
+/*MEDIA QUERY END FROM 768 and MAX 1024 -------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

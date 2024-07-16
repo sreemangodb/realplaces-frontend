@@ -1,0 +1,221 @@
+/*MEDIA QUERY START FROM 1025 and MAX 1280 -------------------------------- */
+@media (min-width: 1025px) and (max-width: 1280px){
+
+.align-left { text-align: left !important; }
+.align-right { text-align: right !important; }
+.align-center { text-align: center !important; }
+.align-left-center { text-align:left }
+.align-left-right { text-align:left }
+.align-right-center { text-align:right }
+.align-right-left { text-align:right }
+
+
+.border {
+    width: 100%;
+    border: solid 1px #e7e7e7;
+}
+
+.box {
+    clear: both;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    margin: 20px auto;
+}
+
+
+
+/*Clear and H Gap Start */
+.clear0 { clear: both; height: 0px; }
+.clear5 { clear: both; height: 5px; }
+.clear10 { clear: both; height: 10px; }
+.clear15 { clear: both; height: 15px; }
+.clear20 { clear: both; height: 20px; }
+.clear25 { clear: both; height: 25px; }
+.clear30 { clear: both; height: 30px; }
+.clear35 { clear: both; height: 35px; }
+.clear40 { clear: both; height: 40px; }
+.clear45 { clear: both; height: 45px; }
+.clear50 { clear: both; height: 50px; }
+.clear55 { clear: both; height: 55px; }
+.clear60 { clear: both; height: 60px; }
+.clear65 { clear: both; height: 65px; }
+.clear70 { clear: both; height: 70px; }
+.clear75 { clear: both; height: 75px; }
+.clear80 { clear: both; height: 80px; }
+.clear85 { clear: both; height: 85px; }
+.clear90 { clear: both; height: 90px; }
+.clear95 { clear: both; height: 95px; }
+.clear100 { clear: both; height: 100px; }
+/*Clear and H Gap End */
+
+
+
+/*Img Code Start */
+.img { width: 100%; overflow: hidden; }
+.img .img { width: 100%; overflow: hidden; }
+/* Img Code Start */
+
+
+/*Parallax 01 Start */
+.parallax-01 {
+    /* The image used */
+    /* background-image: url("img_parallax.jpg"); */
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /*
+  <div class="parallax--01"></div>
+  /*
+  /*Parallax 01 End */
+  
+
+
+/*TITLES CSS CODE START ......................................................... */
+
+.page-title-01 {
+    width: 100%;
+    background-color: #e7e7e7;
+    color:#333;
+    padding: 1% 8%;
+    clear: both;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+
+/*Title 01 
+Use for Keyword*/
+.title-01 {
+    margin: 20px 0px 10px 0px;
+    clear: both;
+  }
+.title-01 em {
+      display: block;
+      font-size: 16px;
+      margin-top: 5px;
+      font-style: normal;
+      font-weight: 400;
+  
+  }
+.title-01 .line{
+      background: #9eca45;
+      height: 3px;
+      display: block;
+      bottom: 0px;
+      width: 100px;
+      margin: 18px auto 0 auto;
+  }
+.title-01 h2 {
+    font-size: 35px;
+    font-weight: 400;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+.title-01 h2 strong {
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+    /*
+    <div class="title-02">
+  <h2>Popular Categories in  <strong>Hyderabad</strong> 
+   <span class="line"></span></h2>
+</div><!--title01-->   
+    */
+    /*Title 01 End */
+  
+
+
+/*Title 02 start*/
+.title-02 h4{
+    font-size: 22px;
+    padding-bottom: 8px;
+    z-index: 1;
+    position: relative;
+    text-align: left;
+    font-weight: normal;
+    margin: 5px 0px 7px 0px;
+    }
+    .title-02 .line{
+      background: #9eca45;
+      position: absolute;
+      height: 2px;
+      display: block;
+      bottom: 0px;
+      width: 72px;
+    }
+    .title-02 .text{
+      z-index: 20;
+      position: relative;
+      text-align: center;
+    }
+    
+    
+    
+/*Title 02 End*/
+
+
+/*Sub Title 02 start */
+.sub-title-02 {
+    width: 100%;
+    background-color: blue;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 0px;
+}
+/*Sub Title 02 End */
+
+/*TITLES CSS CODE END ......................................................... */
+
+
+
+
+
+
+.pleft-right {
+    clear: both;
+    width: 100%;
+}
+.left-right .leftright-in {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 25% 75%;
+}
+.left-right .leftright-in .left-right-left {
+    width: 100%;
+}
+.left-right .leftright-in .left-right-right {
+    width: 100%;
+}
+
+
+.right-left {
+    clear: both;
+    width: 100%;
+}
+.right-left .rightleft-in {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 75% 25%;
+}
+.right-left .rightleft-in {
+    width: 100%;
+}
+.right-left .rightleft-in .rightleft-right {
+    width: 100%;
+}
+.right-left .rightleft-in .rightleft-left {
+    width: 100%;
+}
+
+
+
+}
+/*MEDIA QUERY START FROM 1025 and MAX 1280 -------------------------------- */
